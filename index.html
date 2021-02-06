@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/index.css">
+    <title>Voting Panel</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <div class="main_body">
+          <div class="card">
+            <div class="card-header">
+              <div class="header_item">
+                <span>Nomination: Demo</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="nominatoion_artist">
+                <span class="name">Name:</span>
+                <span class="nominatoion_artist_name"><strong>Ivan Pupkin</strong></span>
+                <br>
+                <span class="name">Performance:</span>
+                <span class="nominatoion_artist_performance">
+                  <strong>"Duck Dance"</strong>
+                </span>
+                <div class="voting_output">
+                  <span id="voting_output_span">Ваша оценка</span>
+                </div>
+                <div class="voting">
+                  <div class="voting_item">
+                    <button id="vote_num " class="num1" onclick="changeNum()">1</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num2" onclick="changeNum()">2</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num3" onclick="changeNum()">3</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num4" onclick="changeNum()">4</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num5" class="num9" onclick="changeNum()">5</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num6" onclick="changeNum()">6</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num7" onclick="changeNum()">7</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num8"  onclick="changeNum()">8</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num9" onclick="changeNum()">9</button>
+                  </div>
+                  <div class="voting_item">
+                    <button id="vote_num " class="num10" onclick="changeNum()">10</button>
+                  </div>
+                </div>
+                <div class="submit">
+                  <button class="submit_item disabled" id="submit_item" disabled>
+                    Отправить [5]
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
